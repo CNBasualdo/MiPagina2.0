@@ -1,0 +1,49 @@
+.sobreMi {
+  height: 500px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobreMi .contenedor {
+  max-width: 600px;
+  text-align: center;
+  justify-content: center;
+}
+
+.seccionOscura {
+  color: white;
+  background-color: rgba(10, 10, 10, 0.87);
+}
+
+.seccionTitulo {
+  font-size: 2rem;/*TAMAÑO DE LETRA*/
+  padding: 15px 0;
+  font-family: 'Russo one';
+  text-decoration: underline;
+}
+.seccionTexto {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Merriweather Sans';
+}
+
+.iconoBoton{
+  height: 40px;
+  width: 500px;
+  padding: 0;
+  display: flex;
+  align-items: center;   
+}
+
+.Proyectos button{
+  font-family: 'Russo one';
+}
+
+
+@media (max-width: 525px){
+  .iconoBoton {
+    width: 200px;
+  }
+}

@@ -1,0 +1,70 @@
+/*Efecto de Boton*/
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.fill {
+  --color: white;
+  --hover: black;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+
+button:hover,
+button:focus {
+  border-color: var(--hover);
+  color: white;
+
+}
+
+.botonera a{
+  color: transparent;
+}
+
+.titulos h4{
+  font-family: 'Russo one';
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.botones button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Russo one';
+}
+
+
+/*Iconos de boton*/
+
+.botonera{
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botonera button {
+min-width: 300px;
+}
+
+.iconoCurso{
+  padding: 0;
+  display: flex;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  padding-bottom: 5px;
+  padding-right: 5px ;
+}
+
+
+@media (max-width:1624px){
+  .botonera {
+    flex-direction: column;
+  }
+}

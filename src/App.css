@@ -1,0 +1,25 @@
+section {
+  
+  flex-direction: column;
+  /*DIRECCION VERTICAL EN COLUMNAS*/
+  align-items: center;
+  /*lOS ELEMENTOS SE ALINEAN EN EL CENTRO*/
+  justify-content: center;
+  /*lOS ELEMENTOS SE ALINEAN EN EL EJE CENTRO*/
+}
+
+.seccionOscura {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.870);
+}
+
+.seccionTitulo {
+  font-size: 2rem;
+  /*TAMAÑO DE LETRA*/
+  padding: 15px 0;
+  font-family: 'Merriweather Sans';
+}
+
+.seccionTexto {
+  font-size: 1.2rem;
+}

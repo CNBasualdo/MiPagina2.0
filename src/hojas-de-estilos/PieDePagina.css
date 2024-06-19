@@ -1,0 +1,14 @@
+footer {
+  min-height: 50px;
+}
+
+.pieDePagina {
+  height: 30px;
+  width: 30px;
+}
+
+.derechosDeAutor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 1px;
+}
