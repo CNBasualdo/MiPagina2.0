@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://NicolasBasualdo.github.io/react-github-pages/build",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
