@@ -9,13 +9,11 @@ import PieDePagina from "./componentes/PieDePagina";
 function App() {
   return (
     <div className="App">
-  <Router>
-        <BarraDeNavegacion />
+      <BarraDeNavegacion />
       <SeccionPrincipal />
       <SeccionSobreMI />
       <Contacto />
       <PieDePagina />
-      </Router>
     </div>
   );
 }
