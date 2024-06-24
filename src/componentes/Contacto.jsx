@@ -1,5 +1,7 @@
 import '../hojas-de-estilos/Contacto.css';
 import { BiLogoGmail, BiLogoLinkedin, BiLogoDiscordAlt} from "react-icons/bi";
+import ImgTamaño2 from '../assets/imagenes/ImgTamaño2.png';
+
 
 
 function Contacto() {
@@ -18,7 +20,7 @@ function Contacto() {
           </a>
         </div>
 
-      <img className='contactoImg  '  src="../imagenes/ImgTamaño2.png" alt="ImagenContacto"/>
+      <img className='contactoImg'  src={ImgTamaño2} alt="ImagenContacto"/>
 
     </div>
   );
