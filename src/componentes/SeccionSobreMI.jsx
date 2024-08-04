@@ -1,5 +1,7 @@
 import "../hojas-de-estilos/SeccionSobreMI.css";
-import { BiLogoGithub } from "react-icons/bi";
+import { BiLogoReact } from "react-icons/bi";
+import { Link} from "react-router-dom";
+
 
 function SeccionSobreMI  () {
   return(
@@ -11,13 +13,15 @@ function SeccionSobreMI  () {
           Realice mis estudios en el<a href="https://esc48-sfe.infd.edu.ar/sitio/"> Instituto de Educación Superior Nº48</a>, de la localidad de totoras. Me gustaría seguir adquiriendo conocimientos y tener mi primera experiencia laboral como diseñador Web.
           Un saludo y ante cualquier consulta por favor contacteme.
         </p>
-        <a className="Proyectos" href="https://github.com/CNBasualdo" target="_blank">
+        
+        <Link className="Proyectos" to="/misProyectos" >
             <button className="btn btn-primary">
-              <BiLogoGithub className="iconoBoton" />
+              <BiLogoReact className="iconoBoton" />
               Mis Proyectos 
             </button>
-        </a>
-      </div>
+        </Link>
+
+        </div>
     </div>
   );
 }

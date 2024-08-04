@@ -9,14 +9,8 @@ const BarraDeNavegacion =()=> {
         <div className="container-fluid">
           <Link to='/'>
             <img src={iconoBarra} alt="Icono1" width='80'/>
+            <h4>Desarrollador Front-End</h4>
           </Link>
-          <h4>Desarrollador Front-End</h4>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav me-5 lg-9 mb-lg-0">
-            <li className="nav-item">            
-            </li>
-          </ul>
-        </div>
         </div>
       </nav>
 

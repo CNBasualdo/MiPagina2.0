@@ -1,0 +1,65 @@
+.misProyectos{
+    background-color:  rgba(10, 10, 10, 0.87);
+    color:white;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(8, 8, 8, 0.404);
+    padding: 20px;
+    font-family: 'Russo one';
+}
+
+.iconoBoton{
+    height: 40px;
+    width: 500px;
+    padding: 0;
+    display: flex;
+    align-items: center;   
+}
+
+.tarjetero{
+    margin: 20px auto;
+    display: grid;
+    justify-content: space-around;
+    max-width: 1800px;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 15px;
+}
+
+.card-img-top{
+    width: 100%;
+    min-height: 300px;
+    display: block;
+}
+
+.card{
+    max-width: 300px;
+    margin: 5px;
+}
+
+.card p{
+    min-height: 80px;
+}
+
+
+
+@media(max-width:1300px ){
+    .tarjetero{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column ;
+        align-items: center;
+    }
+}
+
+
+
+@media(max-width:542px){
+    .iconoBoton{
+        width: 250px;
+    }
+}
